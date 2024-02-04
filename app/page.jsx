@@ -1,4 +1,5 @@
-
+import Head from 'next/head';
+import Script from 'next/script';
 import FancyFeatureSeventeen from "@/components/features/FancyFeatureSeventeen";
 import PricingEight from "@/components/pricing/PricingEight";
 import Portfolio from "@/components/portfolio/Portfolio";
@@ -25,6 +26,7 @@ const Scrollspy = dynamic(() => import('@/components/scrollpy/Scrollphy'), {
 export const metadata = {
     title: 'TillTech',
     description: `Design Abonnements für jeden. Pausiere oder kündige jederzeit.`,
+    
   }
 
 const AppointmentScheduling = () => {
@@ -32,7 +34,20 @@ const AppointmentScheduling = () => {
 
   return (
     <div className="main-page-wrapper p0 font-gordita">
-     
+  <Head>
+        {/* Einbindung des externen Skripts */}
+        <Script
+          src="https://r.wdfl.co/rw.js"
+          strategy="lazyOnload"
+          data-rewardful="dddac4"
+          async
+        />
+      </Head>
+
+      {/* Einbindung des Inline-Skripts */}
+      <script dangerouslySetInnerHTML={{ __html: `
+        (function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');
+      ` }}></script>
 
       <HeaderLandingAppointment />
       {/* End Header Landing Appoinment Scheduling */}
@@ -119,9 +134,10 @@ const AppointmentScheduling = () => {
                     style={{ background: "#FFF170" }}
                   ></div>
                   <Image width={504} height={374} style={{height:'fit-content'}}    
-                    src="/images/assets/async.png"
+                    src="/images/assets/async.svg"
                     alt="image"
                     className="shapes shape-one"
+                    quality={100}
                   />
                 </div>
                 {/* /.screen-container */}
@@ -160,9 +176,10 @@ const AppointmentScheduling = () => {
                     style={{ background: "#FF77D9" }}
                   ></div>
                   <Image width={529} height={391} style={{height:'fit-content'}}    
-                    src="/images/assets/trello.png"
+                    src="/images/assets/trello.svg"
                     alt="screen"
                     className="shapes shape-two"
+                    quality={100}
                   />
                 </div>
                 {/* /.screen-container */}
@@ -201,10 +218,11 @@ const AppointmentScheduling = () => {
                     className="oval-shape"
                     style={{ background: "#FC6BFF" }}
                   ></div>
-                  <Image width={583} height={449} style={{height:'fit-content'}}    
-                    src="/images/assets/team1.png"
+                  <Image width={529} height={391} style={{height:'fit-content'}}    
+                    src="/images/assets/team.svg"
                     alt="screen"
                     className="shapes shape-three"
+                    quality={100}
                   />
                 </div>
                 {/* /.screen-container */}

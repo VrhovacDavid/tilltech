@@ -4,63 +4,63 @@ const socialContent = [
   {
     classCol: "col-lg-3 col-md-4 col-6",
     boxClass: "bx-a",
-    img: "p-1",
+    img: "Behance",
     link: "#",
     animationDelay: "",
   },
   {
     classCol: "col-lg-2 col-md-4 col-6",
     boxClass: "bx-b",
-    img: "p-2",
+    img: "Dribble",
     link: "#",
     animationDelay: "50",
   },
   {
     classCol: "col-lg-3 col-md-4 col-6",
     boxClass: "bx-c",
-    img: "p-3",
+    img: "Facebook",
     link: "#",
     animationDelay: "100",
   },
   {
     classCol: "col-xl-2 col-lg-3 col-md-4 col-6",
     boxClass: "bx-d",
-    img: "p-4",
+    img: "Google",
     link: "#",
     animationDelay: "150",
   },
   {
     classCol: "col-xl-2 col-lg-3 col-md-4 col-6",
     boxClass: "bx-e",
-    img: "p-5",
+    img: "Instagram",
     link: "#",
     animationDelay: "200",
   },
   {
     classCol: "col-xl-4 col-lg-2 col-md-4 col-6",
     boxClass: "bx-f",
-    img: "p-6",
+    img: "Pinterest",
     link: "#",
     animationDelay: "50",
   },
   {
     classCol: "col-xl-2 col-lg-3 col-md-4 col-6",
     boxClass: "bx-g",
-    img: "p-7",
+    img: "Clubhouse",
     link: "#",
     animationDelay: "100",
   },
   {
     classCol: "col-xl-3 col-lg-3 col-md-4 col-6",
     boxClass: "bx-h",
-    img: "p-8",
+    img: "Slack",
     link: "#",
     animationDelay: "150",
   },
   {
     classCol: "col-xl-3 col-lg-11 col-md-4 col-6",
     boxClass: "bx-i",
-    img: "p-9",
+    img: "YouTube",
     link: "#",
     animationDelay: "200",
   },
@@ -79,7 +79,7 @@ const SocialTwo = () => {
         >
           <div className={`img-box ${val.boxClass}`}>
             
-              <Image  width={130} height={82} style={{maxHeight:'50%',objectFit:'contain'}} src={`/images/logo/${val.img}.png`} alt="logo" />
+              <Image  width={130} height={82} style={{maxHeight:'50%',objectFit:'contain'}} src={`/images/logo/${val.img}.svg`} alt="logo" />
             
           </div>
           {/* /.img-box */}

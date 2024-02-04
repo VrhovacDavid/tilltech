@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import FancyShortBanner from "../fancy-features/FancyShortBanner";
 const PricingContent = [
   {
     plan: "Standart Plan",
@@ -93,8 +94,8 @@ const BusinessPlanContent = () => (
     <Image width="200" height="200" src="/images/media/Call.svg" alt="brand" className="m-auto"/>
     </div>
     <div className="">
-      <h3>Buchen ein Gespäch</h3>
-      <p>Erfahre mehr darüber, wie TillTech funktioniert und wie es dir helfen kann.</p>
+      <h4>Buchen ein Gespäch</h4>
+      <p className="mt-3">Erfahre mehr darüber, wie TillTech funktioniert und wie es dir helfen kann.</p>
                 <div className="pr-footer ">
                      {/* End pr-body */}
                      <div className="pr-footer">
@@ -111,7 +112,7 @@ const BusinessPlanContent = () => (
     <div className="flex flex-col items-center">
     <Image width="300" height="300" src="/images/media/Friend.svg" alt="friend" className="m-auto"/>
 
-      <h5>Empfehle einen Freund und verdiene</h5>
+      <h4>Empfehle einen Freund und verdiene</h4>
       <p className="mt-3">Verdiene 5% monatliche wiederkehrende Provisionen für jede Empfehlung.</p>
       <div className="pr-footer">
                {/* End pr-body */}
@@ -182,7 +183,7 @@ const PricingEight = () => {
               <Link     href={val.link} className="trial-button">
                 Starte noch heute
               </Link>
-             
+            
              
             </div>
            
