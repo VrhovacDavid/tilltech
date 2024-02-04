@@ -97,7 +97,7 @@ const AppointmentScheduling = () => {
               </span>
             </h2>
             <p>
-            TillTech ersetzt unzuverlässige Freelancer und teure Agenturen durch eine monatliche Pauschalgebühr, mit Designs, die so schnell geliefert werden, dass es deine Vorstellungen übertrifft.
+            GmbH ersetzt unzuverlässige Freelancer und teure Agenturen durch eine monatliche Pauschalgebühr, mit Designs, die so schnell geliefert werden, dass es deine Vorstellungen übertrifft.
             </p>
           </div>
           {/* End title */}
