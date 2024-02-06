@@ -58,10 +58,10 @@ const FooterEight = () => {
             <Link     href="/terms-conditions">Nutzungsbedingungen</Link>
           </li>
           <li>
-            <Link     href="/terms-conditions">Allgemeine Geschäftsbedingungen</Link>
+            <Link     href="/terms-conditions">AGBs</Link>
           </li>
           <li>
-            <Link     href="/terms-conditions">Datenschutzrichtlinie</Link>
+            <Link     href="/terms-conditions">Datenschutz</Link>
           </li>
           <li>
             <Link     href="/terms-conditions">Cookie Richtlinie</Link>

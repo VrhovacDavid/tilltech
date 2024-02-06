@@ -49,7 +49,7 @@ const HeaderLandingAppointment = () => {
       >
         <div className="d-flex align-items-center">
           <div className="logo">
-            <Link     href="/home">
+            <Link     href="/">
               <Image width="138" height="40" src="/images/logo/TillTech.svg" alt="brand" />
             </Link>
           </div>
