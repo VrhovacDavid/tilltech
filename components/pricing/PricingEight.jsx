@@ -7,7 +7,7 @@ const PricingContent = [
     plan: "Standart Plan",
     price: "CHF 4'995",
     info: "Pausiere oder Stoppe jederzeit",
-    link: "https://checkout.stripe.com/c/pay/cs_live_a1fZ1YyBFXpnMFxKu8VBnMbCJg63WHvz7BMjD3HdS4i6CHRGaQx86EWHM6#fidkdWxOYHwnPyd1blppbHNgWjA0S0R2dldNczxVTkNdZDJuT2tCTWpmYWtnQDBXXzZfcFBOS3VsfU5kbEw9a05RZm1yNGBIcGNLUmJQam9PQmhpUUNgdmc8ZjJBUVZSMXx8MlxcbFx3XVEzNTUxbk98RFJyYScpJ3VpbGtuQH11anZgYUxhJz8nMnZMNDBzYlB0MjAwZk1oNmZmJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKnFsaWlxYGZtK2ZtKid4JSUl"
+    link: "https://buy.stripe.com/7sI15vgUq755cHm3cc"
     ,featureList: [
       {
         hintsText: "Anfragen auf eimal",
@@ -43,7 +43,7 @@ const PricingContent = [
     plan: "Pro Plan",
     price: "CHF 6'995",
     info: "Pausiere oder Stoppe jederzeit",
-link:"https://checkout.stripe.com/c/pay/cs_live_a19XqBArIXfBL8eVImgmQlmRoioonIQoZg5HEQHkYfCRnwEaPAJlAUYq0k#fidkdWxOYHwnPyd1blppbHNgWjA0S0R2dldNczxVTkNdZDJuT2tCTWpmYWtnQDBXXzZfcFBOS3VsfU5kbEw9a05RZm1yNGBIcGNLUmJQam9PQmhpUUNgdmc8ZjJBUVZSMXx8MlxcbFx3XVEzNTUxbk98RFJyYScpJ3VpbGtuQH11anZgYUxhJz8nPXJIM3VVZ0QzZG1tYFVwY1xfJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKnFsaWlxYGZtK2ZtKid4JSUl"
+link:"https://buy.stripe.com/8wM6pPbA6ahhePufYZ"
     ,featureList: [
       {
         hintsText: "Anfragen auf eimal",
